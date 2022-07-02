@@ -19,7 +19,7 @@ export const DateStripe = ({selected, onSelect}:IDateStripe) => {
 
 
     const getnextWeekDays = () => {
-        let curr = weekDays[0] ? new Date(weekDays[weekDays.length]) : new Date(new Date().setDate(new Date().getDate()-1));
+        let curr = weekDays[0] ? new Date(weekDays[weekDays.length-1]) : new Date(new Date().setDate(new Date().getDate()-1));
         let week = []
         for (let i = 0; i < 7; i++) {
             let day = new Date(curr.setDate(curr.getDate()+1)).toISOString().slice(0, 10)
