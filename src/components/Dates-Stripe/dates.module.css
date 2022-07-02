@@ -1,0 +1,47 @@
+.box {
+    display: flex;
+}
+
+  .boxmodal {
+      border-radius: 5px;
+      padding: 0px 10px 0px 10px;
+      background-color: green;
+      color: white;
+      margin: 10px;
+      height: 50px;
+      width:100px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      font-weight: bold;
+  }
+
+  .active{
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background-color: #356242;
+    color: white;
+    margin: 10px;
+    height: 50px;
+    width:100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+  }
+
+  .selected{
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background-color: #5f784e;
+    color: white;
+    margin: 10px;
+    height: 50px;
+    width:100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+  }
+
+
